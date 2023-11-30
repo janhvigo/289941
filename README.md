@@ -40,7 +40,7 @@ Further expanding on the correlation maps, there were a few variables which had 
 
 First, we made a Bar Graph with the columns Gender, Work or Leisure, Ticket Class and Loyalty and we gained some insights on consumer behaviour, some were obvious while some were not so obvious. First, it was obvious that there are more 'Loyal' customers who answered the survey and most of them are satified. This is because Loyal customers are in fact loyal because they are satified with the services. The high number of responses can be interpreted as people who are Loyal are more likely to pay attention to a survey conducted by the organisations as compared to Disloyal customers. Gender ratings were fairly balanced as train services are not different for men and women.
 
-An interesting observation was that people who travelled for work were way more satisfied than those who travelled for leisure. We know that people travelling for work prioritise efficiency over luxury which might mean that the efficiency aspects of the company (schedules and on-time arrival) are well but the overall consumer experience might not be 'fun', something that's desired by leisure travellers. We also noticed that Premium class members are way more satisfied than Economy or Smart class members which means that the company should improvise vervices in these areas.
+An interesting observation was that people who travelled for work were way more satisfied than those who travelled for leisure. We know that people travelling for work prioritise efficiency over luxury which might mean that the efficiency aspects of the company (schedules and on-time arrival) are well but the overall consumer experience might not be 'fun', something that's desired by leisure travellers. We also noticed that Premium class members are way more satisfied than Economy or Smart class members which means that the company should improvise services in these areas.
 
 The density plots give us a visual understanding of the distribution of four different continuous variables from your dataset.
 
@@ -60,6 +60,10 @@ Density Plot of Average Rating:
 The average rating distribution appears to be left-skewed, indicating that most ratings are high, with a peak around 4 out of 5.
 The plot suggests that there are few very low ratings and most customers tend to give a rating above the midpoint of the scale.
 
+Density Plot of Distance:
+
+The plot shows a distribution with multiple peaks, which suggests that there are several common distances at which people travel. It could indicate regular routes or distances that are more popular or available for traveling.There's a significant peak at the lower end of the distance range, indicating that a large number of trips are short-distance. Following this, there are smaller peaks, which could represent less frequent but still common travel distances. The long tail to the right indicates that there are fewer instances of long-distance travel, but such trips still occur.
+
 From these plots, we can deduce that:
 
 - Most passengers are either in the younger or middle-aged bracket, with fewer older passengers.
@@ -67,10 +71,6 @@ From these plots, we can deduce that:
 - Customers generally seem to be satisfied with the service, as indicated by the higher average ratings.
 
 These insights could be valuable for the train service provider, indicating areas where service is performing well (high average ratings) and aspects that might require attention (the occurrence of long delays, even if infrequent).
-
-Density Plot of Distance:
-
-The plot shows a distribution with multiple peaks, which suggests that there are several common distances at which people travel. It could indicate regular routes or distances that are more popular or available for traveling.There's a significant peak at the lower end of the distance range, indicating that a large number of trips are short-distance. Following this, there are smaller peaks, which could represent less frequent but still common travel distances. The long tail to the right indicates that there are fewer instances of long-distance travel, but such trips still occur.
 
 After preprocessing the data, we notice that in our Scatter Plot, there are no outliers (because we removed them) and the correlation heatmap has way less insignifant variables that taint the graph dark blue.
 
