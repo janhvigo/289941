@@ -89,3 +89,5 @@ Considering Recall as our most important metric, we should choose the model with
 # Conclusion
 
 In conclusion, we notice that for all the metrics, including Recall, our model of Random Forests performs really well on the test set we formerly initialised with excellent scores of above 0.9. Therefore, we can conclude that our model is a good model.
+
+Although this project explores the analysis of customer satisafaction with enough rigour, it ignores any improvements that was made by the company as we drop the Date and Time column, deeming it as unimportant. An area of further study could be taking into consideration the Date and Time column and performing a time series analysis to gain more specific insights into consumer behaviour. This analysis would be highly insightful as it could help up understand if there were certain aspects of the services that were improved as the time passes (seen through improved ratings). Through this, the company can direct its focus more on improving the aspects of the services that still receive a lower rating rather than making a general inference based on the average rating. 
